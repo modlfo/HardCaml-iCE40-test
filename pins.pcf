@@ -1,0 +1,15 @@
+set_io CLK 15
+set_io BUT1 41
+set_io BUT2 42
+set_io LED1 40
+set_io LED2 51
+
+set_io DAC[0] 1
+set_io DAC[1] 2
+set_io DAC[2] 3
+set_io DAC[3] 4
+set_io DAC[4] 7
+set_io DAC[5] 8
+set_io DAC[6] 9
+set_io DAC[7] 10
+set_io DAC_CLK 20
