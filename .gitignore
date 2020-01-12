@@ -1,0 +1,7 @@
+.merlin
+_build
+top.bin
+top.rpt
+top.v
+test.vcd
+top
