@@ -52,7 +52,7 @@ let brightness i =
   in
   let w = width i in
   let size = pow_2_n w in
-  let table = List.init size (fun i -> consti ~width:w (calc size i)) in
+  let table = List.init size (fun i -> of_int ~width:w (calc size i)) in
   mux i table
 
 let top =
